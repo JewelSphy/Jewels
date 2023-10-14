@@ -1,0 +1,353 @@
+*{
+    padding:0;
+    margin: 0;   
+    box-sizing: border-box;
+    
+}
+.helicopter{
+    height:100vh;
+    width:100%;
+    background-image:url(techimg.gif);
+    background-size: cover; ;
+    background-position: center;
+}
+nav{
+align-items: center;
+align-content: center;
+text-align: center;
+justify-content: space-between;
+display: flex;
+padding-top: 20px;
+padding-right: 9%;
+padding-right: 9%;
+list-style-type: none;
+
+
+
+}
+.logo{
+    color: whitesmoke;
+    overflow: hidden;
+    text-overflow: clip;
+    border: 1px solid #000;
+    
+
+}
+h2 a:hover{
+    color: crimson;
+    transition: .5s;
+}
+
+nav ul li a{
+    list-style-type: none;
+    display: flex;
+    gap: 3em;
+    color: whitesmoke;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: crimson;
+    transition: .5s;
+}
+
+nav ul li{
+    display: flex;
+    list-style-type: none;
+    display: inline-block;
+    padding: 25px;
+}
+
+.intro{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    color:whitesmoke;
+    gap: 2em;
+
+}
+nav intro a:hover{
+    color: red;
+    transition: .5s;
+}
+h3{
+    color: whitesmoke;
+    font-size: 25px;
+    margin-left: 40px;
+}
+h1{
+    color: whitesmoke;
+    margin-left: 40px;
+    font-size: 30px;
+}
+h5{
+  color:whitesmoke;
+  margin-left: 40px;
+  font-size: 25px;
+  
+}
+.contact form{
+    margin-left: 15px;
+    position: relative;
+    max-width: 100%;
+    padding: 15px;
+
+}
+.contact form input:first-child{
+    margin-left: 15px;
+    padding: 11px 90px 11px 11px;
+    width: 100%;
+    border: 2px solid red;
+    border-radius: 20px;
+
+}
+.contact form input:last-child{
+    display: inline-block;
+    padding: 3px 5px 3px 6px;
+    margin-left: 15px;
+    background-color: red;
+    color: white;
+    align-items: center;
+    width: 25%;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 0px 4px #000,0px 0px 14px;
+    top: 6px;
+    right: 6px;
+    position: absolute;
+}
+.about{
+    padding: 100px 100px 300px 200px;
+    width: 100%;
+    background-color: rgb(0, 0, 4);
+    align-items: center;
+    text-decoration: solid;
+    display: flex;
+}
+
+.rounded-img{
+    border-radius: 50%;
+    width: 200px; 
+    height: 200px; 
+}
+div img{
+    height: 400px;
+    box-sizing: 40em;
+    margin-left: 3px;
+}
+
+
+.pup {
+    width:1130px;
+    max-width:95%;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+
+.aboutme {
+    flex-direction: column;
+    text-align: center; 
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {}
+    .aboutme img {
+      width: 35%; 
+    }
+.aboutme p {
+    font-size: 14px; 
+    text-align: center;
+    color: azure;
+}
+
+.aboutme h6 {
+    font-size: 25px; }
+
+.portfolio {
+        background-color:rgb(36, 5, 5);
+        overflow: hidden;
+        text-overflow: clip;
+        position: relative;
+        background-size: cover; ;
+        background-position: center;
+
+    }
+
+.portfolio h2{
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+
+.portfolio h2:hover{
+    color: red;
+    transition: 2s;
+    border: #000;
+}
+
+.portfolio img {
+    
+    align-items: center;
+    align-content: center;
+    height:  300px;
+    box-sizing: 30rem;
+    margin-left: 7%;
+    width: 280px;
+}
+
+.portfolio p {
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10%;
+
+}
+
+form {
+    text-align: left; 
+    max-width: 400px; 
+    margin: 0 auto; 
+    color: #000;
+}
+
+
+form label {
+    display: block; 
+    color: white; 
+    margin-bottom: 5px;
+}
+
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%; 
+    padding: 10px; 
+    border: 2px solid red; 
+    border-radius: 10px; 
+    background-color: transparent; 
+    color: white; 
+    margin-bottom: 10px; 
+}
+
+
+form input[type="submit"] {
+    width: 100%; 
+    padding: 10px; 
+    background-color: red; 
+    color: white; 
+    border: none; 
+    border-radius: 10px; 
+    cursor: pointer; 
+}
+
+
+form input[type="submit"]:hover {
+    background-color: darkred; 
+}
+
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%; 
+    padding: 10px; 
+    border: 2px solid red; 
+    border-radius: 10px; 
+    background-color: transparent; 
+    color: white; 
+    margin-bottom: 10px;
+}
+
+
+form input[type="submit"] {
+    width: 100%; 
+    padding: 10px; 
+    background-color: red; 
+    color: white;
+    border: none; 
+    border-radius: 10px; 
+    cursor: pointer; 
+    margin-bottom: 20%;
+}
+
+
+form input[type="submit"]:hover {
+    background-color: darkred; 
+    margin-bottom: 40%;
+}
+
+section h1:hover{
+    color: red;
+    transition: color 0.4s;
+
+}
+
+section h1{
+    margin-top: 10%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+section form{
+align-items: center;
+}
+
+#contact{
+    background-color: #000;
+}
+
+#services {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+
+.service-carousel {
+    display: flex;
+    width: 100%;
+    white-space: nowrap;
+    position: relative;
+    animation: slide 5s infinite; 
+}
+
+#services{
+background-color: #000;
+}
+
+
+.service-slide {
+    min-width: 100%;
+    padding: 50px;
+    text-align: center;
+    background-color: #410808;
+    border-radius: 30px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+@keyframes slide {
+    0% {
+        transform: translateX(0%);
+    }
+    25% {
+        transform: translateX(0%);
+    }
+    50% {
+        transform: translateX(-100%);
+    }
+    75% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
